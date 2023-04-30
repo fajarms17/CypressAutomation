@@ -1,0 +1,80 @@
+[
+  {
+    "description": "    IBRA AR",
+    "elements": [
+      {
+        "description": "",
+        "id": "outgoing-payment;login-as-a-cashier",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login as a Cashier",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open star website",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8213000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "tstcsr01a000@ai.astra.co.id",
+                      "BatuKali@1102"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I login with valid email and password",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20773000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Validate username",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2836000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "outgoing-payment",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Outgoing Payment",
+    "tags": [],
+    "uri": "cypress\\integration\\examples\\BDD\\star.feature"
+  }
+]
